@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <img src="../SelfGradedQuizzes/PuppyPic.jpg">
     <!-- this is the start of content -->
     <h1>
       Fortune Teller
@@ -20,9 +21,40 @@
       <label for="namefield">Name:</label>
       <input type="text" id="namefield" name="name" placeholder="your name" required>
       <br>
-      <label for="questionfield">Question:</label>
-      <input type="text" id="questionfield" name="question" placeholder="a yes or no question">
+      <label for="questionfield">Question: Do you have a dog?</label>
+      <input type="text" id="questionfield" name="question1" placeholder="yes or no"> 
       <br>
+      <label for="questionfield">Question: Do you have siblings?</label>
+      <input type="text" id="questionfield" name="question2" placeholder="yes or no">
+      <br>
+      <label for="questionfield">Question: Are you in high school?</label>
+      <input type="text" id="questionfield" name="question3" placeholder="yes or no">
+      <br>
+      <label for="questionfield">Question: Do you play a sport?</label>
+      <input type="text" id="questionfield" name="question4" placeholder="yes or no">
+      <br>
+      <label for="questionfield">Question: Are you a senior?</label>
+      <input type="text" id="questionfield" name="question5" placeholder="yes or no">
+      <br>
+      <label for="questionfield">Question: Did you eat breakfast this morning?</label>
+      <input type="radio" name="fortune" value="yes" checked>Yes
+      <input type="radio" name="fortune" value="no">No
+      <br>
+      <label for="questionfield">Question: Do you like ice cream?</label>
+      <input type="checkbox" name="fortune" value="yes">
+      <br>
+      <label for="questionfield">Question: What is your favorite color?</label>
+      <select id="cars" name="cars">
+        <option value="Blue">Blue</option>
+        <option value="Red">Red</option>
+        <option value="Green">Green</option>
+      </select>
+      <br>
+      <label for="questionfield">Question: When is your birthday?</label>
+      <input type="date" name="birthday">
+      <br>
+      <label for="questionfield">Question: Tell me about yourself:</label>
+      <textarea name="aboutme" rows="10" cols="30"></textarea>
       <input type="submit">
     </form>
     <div id="fortune"></div>
